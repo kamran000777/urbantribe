@@ -1,0 +1,23 @@
+.warranty{
+      margin: 2rem 3rem;
+      color:rgb(0,58,36);
+      line-height: 1.5;
+}
+.policy__title{
+      font-size: 25px;
+      padding-bottom: 1rem;
+      font-weight: 700;
+}
+.policy__para{
+      font-size: 16px;
+      padding-bottom: 1rem;
+}
+.warranty__title{
+      font-size: 20px;
+      font-weight: 700;
+      padding-bottom: 1rem;
+}
+.warranty__para{
+      font-size: 16px;
+      padding-bottom: 1rem;
+}

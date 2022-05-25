@@ -1,0 +1,25 @@
+.free__ship{
+      margin: 2rem 3rem;
+      color:rgb(0,51,38);
+      line-height: 1.5;
+}
+.free__links{
+      text-decoration: underline;
+      color: blue;
+}
+.terms__title{
+      font-size: 25px;
+      padding-bottom: 1rem;
+}
+.terms__para{
+      font-size: 16px;
+      padding-bottom: 2rem;
+}
+.free__title{
+      font-size: 16px;
+      font-weight: 700;
+}
+.free__para{
+      font-size: 16px;
+      padding-bottom: 2rem;
+}
