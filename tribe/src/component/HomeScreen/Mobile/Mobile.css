@@ -1,0 +1,34 @@
+.smartphone{
+      margin: 2rem 2rem;
+}
+.smartphone__title{
+font-size: 1.5rem;
+color: rgb(0,58,36);
+margin-top: 2rem;
+margin-bottom: 1rem;
+margin-left: 10px;
+}
+.smartphone__products{
+      display: grid;
+      grid-template-columns: repeat(4,1fr);
+}
+@media (max-width:1250px){
+ .smartphone__products{
+       grid-template-columns: repeat(3,1fr);
+ }     
+}
+@media (max-width:1110px){
+      .smartphone{
+            margin: 2rem 1rem;
+      }     
+     }
+@media (max-width:900px){
+      .smartphone__products{
+            grid-template-columns: repeat(2,1fr);
+      }     
+     }
+@media (max-width:550px){
+      .smartphone__products{
+            grid-template-columns: repeat(1,1fr);
+      }     
+     }

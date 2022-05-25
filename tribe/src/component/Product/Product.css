@@ -1,0 +1,127 @@
+.product {
+  width: 280px;
+  height: 400px;
+  padding: 1rem;
+  background-color: white;
+  cursor: pointer;
+  margin: 10px auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.product__anchor {
+  text-decoration: none;
+}
+.sale__timer {
+  padding: 0 7px;
+}
+.hour,
+.minutes,
+.second {
+  background-color: red;
+  padding: 2px 5px;
+  color: black;
+  margin: 0 5px;
+}
+.days {
+  color: black;
+  padding-right: 5px;
+}
+.product__image{
+  height: 220px;
+  margin-top: 0.5rem;
+  margin-bottom: 1.5rem;
+  display: grid;
+  place-items: center;
+}
+.info__name{
+  font-size: 1.35rem;
+  overflow: hidden;
+  color: rgb(0, 56, 38);
+}
+.product p {
+  margin-bottom: 15px;
+}
+.product__price {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 1.5rem;
+}
+.discount__price {
+  font-weight: 700;
+  color: rgb(236, 1, 1);
+  font-size: 1rem;
+}
+.product__real__price {
+  font-size: 16px;
+  padding-right: 8px;
+  font-weight: 400;
+  color: rgb(112, 112, 112);
+  text-decoration: line-through;
+}
+.rating__icons {
+  color: rgb(0, 56, 38);
+  font-size: 1.2rem;
+}
+.product:hover {
+  transform: translateY(-5px);
+  transition: all 0.3s;
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.4);
+}
+
+@media (max-width: 1250px) {
+  .product {
+    width: 350px;
+  }
+}
+@media (max-width: 1100px) {
+  .product {
+    width: 320px;
+  }
+}
+@media (max-width: 1010px) {
+  .product {
+    width: 300px;
+  }
+}
+@media (max-width: 950px) {
+  .product {
+    width: 280px;
+  }
+}
+@media (max-width: 900px) {
+  .product {
+    width: 300px;
+  }
+}
+@media (max-width: 800px) {
+  .product {
+    width: 310px;
+  }
+}
+@media (max-width: 700px) {
+  .product {
+    width: 290px;
+  }
+}
+@media (max-width: 650px) {
+  .product {
+    width: 250px;
+  }
+}
+@media (max-width: 550px) {
+  .product {
+    width: 320px;
+  }
+}
+@media (max-width: 450px) {
+  .product {
+    width: 280px;
+  }
+}
+@media (max-width: 300px) {
+  .product {
+    width: 250px;
+  }
+}

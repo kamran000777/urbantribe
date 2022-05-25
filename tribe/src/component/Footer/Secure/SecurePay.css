@@ -1,0 +1,25 @@
+.secure__pay{
+      margin: 2rem 3rem;
+      color:rgb(0,51,38);
+      line-height: 1.5;
+}
+.secure__links{
+      text-decoration: underline;
+      color: blue;
+}
+.secure__terms__title{
+      font-size: 30px;
+      padding-bottom: 1rem;
+}
+.secure__terms__para{
+      font-size: 20px;
+      padding-bottom: 2rem;
+}
+.secure__title{
+      font-size: 20px;
+      font-weight: 700;
+}
+.secure__para{
+      font-size: 20px;
+      padding-bottom: 2rem;
+}

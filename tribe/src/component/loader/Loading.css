@@ -1,0 +1,23 @@
+.loading__container{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 2rem;
+      width:100vw;
+}
+.loading__spinner{
+      animation: loading 1s infinite;
+      font-size: 2rem;
+      color:rgb(0,58,36);
+}
+@keyframes loading {
+      from {
+            transform: rotate(0deg);
+            transition: all 0.3s;
+      }
+      to {
+            transform: rotate(360deg);
+            transition: all 0.3s;
+      }
+      
+}
