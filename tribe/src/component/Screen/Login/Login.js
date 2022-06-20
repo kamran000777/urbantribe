@@ -27,10 +27,10 @@ function Login() {
         <div className='login__form'>
           <form onSubmit={submitHandler}>
             <label>Email</label><br/>
-            <input type="email" value={email} onChange={e=>setEmail(e.target.value)}/><br/>
+            <input type="email" value={email} onChange={e=>setEmail(e.target.value)} required/><br/>
 
             <label>Password</label><br/>
-            <input type="password" value={password} onChange={(e)=>setPassword(e.target.value)}/><br/>
+            <input type="password" value={password} onChange={(e)=>setPassword(e.target.value)} required/><br/>
 
             <button type='submit'>Login</button>
           </form>

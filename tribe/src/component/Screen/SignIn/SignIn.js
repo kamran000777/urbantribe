@@ -33,10 +33,10 @@ function SignIn() {
             <input type="text" value={name} onChange={e=>setName(e.target.value)}/><br/>
 
             <label>Email</label><br/>
-            <input type="email" value={email} onChange={e=>setEmail(e.target.value)}/><br/>
+            <input type="email" value={email} onChange={e=>setEmail(e.target.value)} required/><br/>
           
             <label>Password</label><br/>
-            <input type="password" value={password} onChange={(e)=>setPassword(e.target.value)}/><br/>
+            <input type="password" value={password} onChange={(e)=>setPassword(e.target.value)} required/><br/>
             
             <p className='password__info'>Your password must be at least 6 characters.</p>
 
