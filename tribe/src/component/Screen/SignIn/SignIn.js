@@ -30,7 +30,7 @@ function SignIn() {
           <form onSubmit={submitHandler}>
 
             <label>Name</label><br/>
-            <input type="text" value={name} onChange={e=>setName(e.target.value)}/><br/>
+            <input type="text" value={name} onChange={e=>setName(e.target.value)} required/><br/>
 
             <label>Email</label><br/>
             <input type="email" value={email} onChange={e=>setEmail(e.target.value)} required/><br/>
