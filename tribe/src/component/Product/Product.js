@@ -4,15 +4,15 @@ import {AiOutlineStar} from 'react-icons/ai';
 import "./Product.css";
 
 function Product({imageUrl,name,price,latest,productId,discountedPrice}){
-  const [timerDays, setTimerDays] = useState();
-  const [timerHours, setTimerHours] = useState();
-  const [timerMinutes, setTimerMinutes] = useState();
-  const [timerSeconds, setTimerSeconds] = useState();
+  const [timerDays, setTimerDays] = useState(10);
+  const [timerHours, setTimerHours] = useState(2);
+  const [timerMinutes, setTimerMinutes] = useState(32);
+  const [timerSeconds, setTimerSeconds] = useState(15);
 
   let interval;
 
   const startTimer=()=>{
-    const countDownDate = new Date("June 29,2022").getTime();
+    const countDownDate = new Date("September 29,2022").getTime();
 
     interval = setInterval(() => {
       const now = new Date().getTime();

@@ -365,7 +365,7 @@ const products = [
   //gaming
   {
     name: "New World PS5",
-    imageUrl: "https://kingplaystation.com/wp-content/uploads/2017/06/ps3.jpg",
+    imageUrl: "https://cdn.idropnews.com/wp-content/uploads/2020/12/01162746/PS5-Giveaway-Enter-to-Win-a-Free-PlayStation-5.jpg",
     description:
       "All-In-One for PS5/PS5 Digital Edition Console Vertical stand, Storage Playstation 5 console with cooling fan, dual wireless controller",
     price: 45500,
