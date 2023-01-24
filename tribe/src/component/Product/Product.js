@@ -12,7 +12,7 @@ function Product({imageUrl,name,price,latest,productId,discountedPrice}){
   let interval;
 
   const startTimer=()=>{
-    const countDownDate = new Date("September 29,2022").getTime();
+    const countDownDate = new Date("September 29,2023").getTime();
 
     interval = setInterval(() => {
       const now = new Date().getTime();
